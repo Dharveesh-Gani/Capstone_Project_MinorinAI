@@ -1,0 +1,21 @@
+# Data Acquisition and Handling
+yfinance
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning and Deep Learning
+torch
+torchvision
+torchaudio
+scikit-learn
+joblib
+
+# Statistical Analysis
+scipy
+
+# Utilities
+requests

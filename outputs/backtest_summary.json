@@ -1,0 +1,21 @@
+{
+  "strategy": {
+    "total_periods": 23,
+    "cumulative_return": 1.4587288895638142,
+    "annual_return": 0.21773266782660028,
+    "annual_vol": 0.3955898935222633,
+    "sharpe": 0.5503999758132004,
+    "max_drawdown": -0.3305114260783826
+  },
+  "benchmark": {
+    "total_periods": 23,
+    "cumulative_return": 1.249355577619895,
+    "annual_return": 0.12316846377230739,
+    "annual_vol": 0.21387115414184799,
+    "sharpe": 0.5759003090740189,
+    "max_drawdown": -0.2401779407645125
+  },
+  "avg_turnover": 0.002840909090909091,
+  "avg_persistence": 0.9745454545454546,
+  "n_periods": 23
+}

@@ -1,0 +1,24 @@
+{
+  "price_features": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "clinical_features": [
+    "phase_1",
+    "phase_2",
+    "phase_3",
+    "phase_4",
+    "late_ratio",
+    "active_ratio"
+  ],
+  "embedding_dim": 32,
+  "fusion_dim": 38,
+  "scoring_method": "PCA(1)",
+  "regime_thresholds": {
+    "buy": 0.7,
+    "sell": 0.3
+  }
+}
