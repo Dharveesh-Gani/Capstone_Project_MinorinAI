@@ -82,3 +82,28 @@ https://biotech-ai.lovable.app/
 
 * Link to the main github repository with original file structure is given below:
 https://github.com/Dharveesh-Gani/Capstone_Project_MinorinAI
+
+## Colab Running Guide
+* To run the notebook top to bottom in colab follow the below instructions:
+* Open a colab notebook and connect to a run-time
+##### Run the following lines of code
+  
+
+!git clone https://github.com/Dharveesh-Gani/Capstone_Project_MinorinAI
+
+
+##### After successfully cloning the repository run the below code for navigating to main folder and installing the dependencies
+
+
+%cd Capstone_Project_MinorinAI
+!pip install -r requirements.txt
+
+
+##### After that run the below code for complete execution of the notebook
+
+  import nbformat
+nb = nbformat.read('Capstone_Project_MinorinAI/combined_final.ipynb', as_version=4)
+for cell in nb.cells:
+    if cell.cell_type == 'code':
+        exec(cell.source)
+
